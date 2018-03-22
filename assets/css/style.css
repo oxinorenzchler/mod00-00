@@ -10,7 +10,19 @@ body{
 	
 }
 #main-section{
-	background-color: #ff4444;
+	background-color: #e57373;
+}
+section#main-section > a{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+
+}
+a[href="https://github.com/oxinorenzchler"]{
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 .about{
 	width: 60%;
@@ -55,7 +67,7 @@ h1{
 
 }
 
-
+/*Mult Element*/
 #main-section,
 #portfolio-section,
 #skills-section,
