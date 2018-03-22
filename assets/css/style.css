@@ -1,16 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+}
 body{
-	/*background-color: red;*/
+	
 }
 #wrapper{
 	font-family: 'Roboto', sans-serif;
 }
-#wrapper p{
-	text-align: justify;
+#main-section{
+	background-color: #ff4444;
+}
+#portfolio-section{
+	background-color: #ffbb33;
+}
+#skills-section{
+	background-color: #00C851;
+}
+#about-section{
+	background-color: #33b5e5;
 }
 .bio{
 
 }
-#profpic{
+.my-picture{
 	height: 200px;
 	width: 150px;
 	border-radius: 50%;
