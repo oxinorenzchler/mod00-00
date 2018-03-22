@@ -1,0 +1,18 @@
+body{
+	/*background-color: red;*/
+}
+#wrapper{
+	font-family: 'Roboto', sans-serif;
+}
+#wrapper p{
+	text-align: justify;
+}
+.bio{
+
+}
+#profpic{
+	height: 200px;
+	width: 150px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 10px 0px #000000;
+}
