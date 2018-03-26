@@ -10,43 +10,19 @@ body{
 	
 }
 #main-section{
-	background-image: url("../img/bg-main-section.jpg");
-	background-repeat: none;
-	background-size: cover;
-	background-attachment: fixed;
-
+	background-color: #e57373;
 }
-/*#main-section:hover{
-	opacity: 0.5;
-    filter: alpha(opacity=50);
-}*/
 section#main-section > a{
 	color: #FFFFFF;
 	text-decoration: none;
 	padding: 15px;
-	display: block;		
-}
-#main-section a{
-	width: 250px;	
-}
-#main-section a:hover{
-	background-color: #00A1E7;
-}
-img[src="assets/img/mail.png"]{
-	height: 20px;
-	width: 20px;
-	position: relative;
-	top: 2px;
-	margin-right: 5px;
+	display: block;
+
 }
 a[href="https://github.com/oxinorenzchler"]{
 	position: absolute;
 	right: 0;
 	top: 0;
-}
-.link-style{
-	border: 1px solid #DEEECA;
-	border-radius: 10px;
 }
 .about{
 	width: 60%;
@@ -56,17 +32,9 @@ a[href="https://github.com/oxinorenzchler"]{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: rgba(255,255,255, 0.60);
-    padding: 10px;
-    border-radius: 5px;
-
 }
 .about p{
 	text-align: justify;
-	text-indent: 30px;
-	font-weight: bold;
-    color: #000000;
-
 }
 .my-picture{
 	height: 150px;
@@ -82,9 +50,6 @@ h1{
 	font-size: 50px;
 	font-weight:  normal;
 }
-h2{
-	color: #FFFFFF;
-}
 #dev-description{
 	padding: 15px 0 15px 0;
 }
@@ -99,7 +64,7 @@ h2{
 	background-color: #33b5e5;
 }
 .bio{
-	color: #FFFFFF;
+
 }
 
 /*Mult Element*/
@@ -109,8 +74,3 @@ h2{
 #about-section{
 	height: 100vh;
 }
-
-/*Nickname: Renz
-Gmail Email Address: oxino.renzchler@gmail.com
-Github Username: oxinorenzchler
-Gitlab Username: oxinorenzchler*/
